@@ -4,7 +4,7 @@ root = Tk()
 
 def log():
 
-    if(Login.get()=="123"):
+    if(Login.get()=="1234"):
         root2 = Tk()
         root.destroy()
         Passwort = Label(root2, text="Welcome")
